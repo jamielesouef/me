@@ -9,11 +9,10 @@ import SwiftUI
 import Combine // no idea why this wants to be imported hhere!? Beta issue maybe
 
 enum AppRoute: Hashable {
-  
   case home
-  case about(me: Me)
-  case history(jobs: [Job])
-  case contact(me: Me)
+  case about
+  case history
+  case contact
 }
 
 final class Router: ObservableObject {
