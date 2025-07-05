@@ -8,12 +8,6 @@
 import SwiftUI
 import SwiftData
 
-@Model
-final class Me {
-  init() {
-  }
-}
-
 @main
 struct meApp: App {
   var sharedModelContainer: ModelContainer = {

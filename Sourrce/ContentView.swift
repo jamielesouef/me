@@ -10,12 +10,29 @@ import SwiftData
 
 struct ContentView: View {
   @Environment(\.modelContext) private var modelContext
+  @Environment(\.meStore) private var meStore
+  
+  @Query private var me: [Me]
   
   @StateObject private var router = Router()
+  
+  private func fetchMeIfNeeded() async {
+    guard me.isEmpty else { return }
+    do {
+      let me = try await meStore.fetchMe()
+      modelContext.insert(me ?? Me())
+    }
+    catch {
+      
+    }
+  }
   
   var body: some View {
     NavigationStack(path: $router.path) {
       
+    }
+    .task {
+      await fetchMeIfNeeded()
     }
     .environmentObject(router)
   }
@@ -23,5 +40,5 @@ struct ContentView: View {
 
 #Preview {
   ContentView()
-    .modelContainer(for: Item.self, inMemory: true)
+    .modelContainer(for: Me.self, inMemory: true)
 }

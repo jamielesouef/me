@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-import Combine // no Ideq why this wants to be imported hhere!? Beta issue maybe
+import Combine // no idea why this wants to be imported hhere!? Beta issue maybe
 
 enum AppRoute: Hashable {
+  
   case home
   case about(me: Me)
-  case settings
+  case history(jobs: [Job])
+  case contact(me: Me)
 }
 
 final class Router: ObservableObject {
