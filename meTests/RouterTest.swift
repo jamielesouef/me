@@ -10,10 +10,17 @@ import Testing
 @testable import me
 
 struct RouterTest {
-  
-  @Test func <#test function name#>() async throws {
-    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-      let router = Router()
-  }
-  
+
+  @Test
+   func pushAddsRouteToPath() async throws{
+     let router = await Router()
+     await router.push(.home)
+
+     #expect(router.path == [.home])
+
+     router.push(.detail(id: 42))
+     #expect(router.path == [.home, .detail(id: 42)])
+   }
+
+
 }
