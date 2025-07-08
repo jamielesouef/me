@@ -13,8 +13,8 @@ struct RouterTest {
 
   @Test
    func pushAddsRouteToPath() async throws{
-     let router = await Router()
-     await router.push(.home)
+     let router =  Router()
+    router.push(.home)
 
      #expect(router.path == [.home])
 
