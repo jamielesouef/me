@@ -9,33 +9,46 @@ import SwiftUI
 import SwiftData
 
 struct HomeView: View {
-  @Environment(\.modelContext) private var modelContext
-  @Environment(\.meStore) private var meStore
-  
-  @Query private var me: [Me]
-  
-  @StateObject private var router = Router()
-  
-  private func fetchMeIfNeeded() async {
-    guard me.isEmpty else { return }
-    do {
-      let me = try await meStore.fetchMe()
-      modelContext.insert(me ?? Me())
-    }
-    catch {
-      
+
+  @EnvironmentObject private var router: Router
+
+  func makeHeader() -> some View {
+    VStack(alignment: .leading, spacing: 10) {
+      Text("Jamie Le Souef")
+        .font(.largeTitle)
+      Text("iOS, MacOs Software Engineer")
+        .font(.title2)
+      Text("and self confessed Apple fanboy")
+        .font(.title2)
     }
   }
-  
-  var body: some View {
-    NavigationStack(path: $router.path) {
-      
+
+  func makeMenu() -> some View {
+    VStack(alignment: .trailing, spacing: 20) {
+      Button("About Me") {
+        router.push(.about)
+      }
+      Button("History") {
+        router.push(.history)
+      }
+      Button("Contact") {
+        router.push(.contact)
+      }
     }
-    .task {
-      await fetchMeIfNeeded()
+    .padding()
+    .background(Color.gray.opacity(0.2))
+    .cornerRadius(10)
+  }
+
+  var body: some View {
+    VStack {
+      makeHeader()
+      Spacer()
+      makeMenu()
     }
     .environmentObject(router)
   }
+
 }
 
 #Preview {

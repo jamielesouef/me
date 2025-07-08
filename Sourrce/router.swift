@@ -6,10 +6,9 @@
 //
 
 import SwiftUI
-import Combine // no idea why this wants to be imported hhere!? Beta issue maybe
+import Combine // no idea why this wants to be imported here!? Beta issue maybe
 
 enum AppRoute: Hashable {
-  case home
   case about
   case history
   case contact
@@ -18,7 +17,7 @@ enum AppRoute: Hashable {
 final class Router: ObservableObject {
   
   @Published var path: [AppRoute] = []
-  
+
   func push(_ route: AppRoute) {
     path.append(route)
   }

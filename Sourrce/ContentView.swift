@@ -16,8 +16,6 @@ struct ContentView: View {
         HomeView()
           .navigationDestination(for: AppRoute.self) { route in
             switch route {
-            case .home:
-              HomeView()
             case .about:
               AboutView()
             case .history:
