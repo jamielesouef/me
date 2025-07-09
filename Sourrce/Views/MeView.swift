@@ -28,7 +28,7 @@ struct MeView: View {
   }
 
   var body: some View {
-    NavigationStack(path: $router.path) {
+    VStack {
 
     }
     .task {
