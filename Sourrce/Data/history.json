@@ -1,0 +1,253 @@
+{
+  "experiences": [
+    {
+      "company": "REA Group",
+      "company_url": "https://www.linkedin.com/company/1508717/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEA8N_DSsRn0Q/company-logo_100_100/company-logo_100_100/0/1636331627220/rea_group_logo?e=1757548800&v=beta&t=7_Es8jDy36Rd2khHI5UkTeX8t3qaeYu_QFmeUy1_ULs",
+      "total_duration": "7 yrs 1 mo",
+      "positions": [
+        {
+          "title": "Mobile Technical Lead",
+          "employment_type": "Full-time",
+          "date_range": "Apr 2022 - Present",
+          "duration": "3 yrs 4 mos",
+          "location": "Melbourne, Victoria, Australia",
+          "skills": [
+            "GraphQL",
+            "Technical Leadership",
+            "REST APIs",
+            "Swift (Programming Language)",
+            "Software Development"
+          ]
+        },
+        {
+          "title": "Lead Mobile Engineer",
+          "employment_type": null,
+          "date_range": "Dec 2019 - Apr 2022",
+          "duration": "2 yrs 5 mos",
+          "location": "Greater Melbourne Area",
+          "skills": [
+            "GraphQL",
+            "Technical Leadership",
+            "REST APIs",
+            "Swift (Programming Language)",
+            "Software Development"
+          ]
+        },
+        {
+          "title": "Senior iOS Software Engineer",
+          "employment_type": null,
+          "date_range": "Jul 2018 - Dec 2019",
+          "duration": "1 yr 6 mos",
+          "location": "Greater Melbourne Area",
+          "skills": [
+            "REST APIs",
+            "Swift (Programming Language)",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Aconex",
+      "company_url": "https://www.linkedin.com/company/19617/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFBuylGf4tjFg/company-logo_100_100/company-logo_100_100/0/1636538863904/aconex_logo?e=1757548800&v=beta&t=kpIzklMdvzsJx3EzpcTrj9cWpbStH9gB_eD-lAyZceY",
+      "positions": [
+        {
+          "title": "Senior iOS Software Engineer",
+          "employment_type": null,
+          "date_range": "May 2017 - Jul 2018",
+          "duration": "1 yr 3 mos",
+          "location": "Greater Melbourne Area",
+          "skills": [
+            "REST APIs",
+            "Swift (Programming Language)",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MYOB",
+      "company_url": "https://www.linkedin.com/company/7850/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQF0JyFp1BN70A/company-logo_100_100/B56ZWgvKzLHEAc-/0/1742158474878/myob_logo?e=1757548800&v=beta&t=Eut4qh_03CgXGEjzkqqeJh5nFt_ZPfya61asz7tWY94",
+      "positions": [
+        {
+          "title": "Senior Software Engineer",
+          "employment_type": "Contract",
+          "date_range": "Sep 2015 - Apr 2017",
+          "duration": "1 yr 8 mos",
+          "location": "Greater Melbourne Area",
+          "description": [
+            "Working across the MYOB Essentials platform on existing and greenfield products with ReactJS, Redux, Babel and Webpack."
+          ],
+          "skills": [
+            "REST APIs",
+            "Swift (Programming Language)",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "SEEK",
+      "company_url": "https://www.linkedin.com/company/8985/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFGixkrB-vxvQ/company-logo_100_100/company-logo_100_100/0/1631308964609?e=1757548800&v=beta&t=Kiz_8khCkI8e4kryx9UTZnQCb06Hwokp9SIDFBj0Oeo",
+      "positions": [
+        {
+          "title": "Senior Software Engineer",
+          "employment_type": "Contract",
+          "date_range": "Aug 2013 - Sep 2015",
+          "duration": "2 yrs 2 mos",
+          "location": "Greater Melbourne Area",
+          "description": [
+            "Build and enhance the AngularJS SEEK mobile web and iOS app."
+          ],
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "J. Walter Thompson Worldwide",
+      "company_url": "https://www.linkedin.com/company/2529/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUjwF4cAAEjw/company-logo_100_100/company-logo_100_100/0/1631364034631/jwt_logo?e=1757548800&v=beta&t=kDVfDBebmOW3AT73OOGMrb3i58tV3Zhza276xrh-4kc",
+      "positions": [
+        {
+          "title": "Senior Software Developer",
+          "employment_type": "Full-time",
+          "date_range": "Jan 2013 - Aug 2013",
+          "duration": "8 mos",
+          "location": "Melbourne, Victoria, Australia",
+          "description": [
+            "Technical Lead, Digital",
+            "Lead PHP Developer",
+            "Lead UI, HTML5 Frontend Web, Web App Developer",
+            "AWS DevOps"
+          ],
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Clemenger BBDO",
+      "company_url": "https://www.linkedin.com/company/15077/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQE9aebUVC9S3A/company-logo_100_100/B4DZXlDqRYHIAQ-/0/1743304697499/clemenger_bbdo_logo?e=1757548800&v=beta&t=jOYdlEHd2UiyPZt91bvSL3vs849B5uvPfLDPRnvQWgk",
+      "positions": [
+        {
+          "title": "Senior Software Developer",
+          "employment_type": null,
+          "date_range": "Dec 2011 - Jan 2013",
+          "duration": "1 yr 2 mos",
+          "location": "474 St. Kilda Road, Melbourne",
+          "description": [
+            "Lead PHP Backend Developer",
+            "Lead UI Frontend Developer",
+            "AWS DevOps"
+          ],
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "TKM9 GROUP",
+      "company_url": "https://www.linkedin.com/company/707592/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQGMfXp44Fz7Og/company-logo_100_100/company-logo_100_100/0/1630576113721/tkm9_logo?e=1757548800&v=beta&t=QVhxsxFNUIoz34S1nL_Wh3X67LHjI01qIP_AlCwgsKg",
+      "positions": [
+        {
+          "title": "Lead Web Developer",
+          "employment_type": "Full-time",
+          "date_range": "Jun 2010 - Dec 2011",
+          "duration": "1 yr 7 mos",
+          "location": "Greater Melbourne Area",
+          "description": [
+            "Lead Developer"
+          ],
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Webvision 2020",
+      "company_url": "https://www.linkedin.com/search/results/all/?keywords=Webvision%202020",
+      "logo_url": null,
+      "positions": [
+        {
+          "title": "Web Developer / Digital Designer",
+          "employment_type": null,
+          "date_range": "Jul 2006 - 2010",
+          "duration": "3 yrs 7 mos",
+          "location": null,
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Jamie Le Souef",
+      "company_url": "https://www.linkedin.com/search/results/all/?keywords=Jamie%20Le%20Souef",
+      "logo_url": null,
+      "positions": [
+        {
+          "title": "Web Developer / Digital Designer",
+          "employment_type": null,
+          "date_range": "2004 - 2010",
+          "duration": "6 yrs",
+          "location": null,
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Aviate Group Pty Ltd",
+      "company_url": "https://www.linkedin.com/search/results/all/?keywords=Aviate%20Group%20Pty%20Ltd",
+      "logo_url": null,
+      "positions": [
+        {
+          "title": "Web Developer / Digital Designer",
+          "employment_type": null,
+          "date_range": "2002 - 2006",
+          "duration": "4 yrs",
+          "location": null,
+          "skills": [
+            "REST APIs",
+            "Software Development"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Youth Projects Ltd",
+      "company_url": "https://www.linkedin.com/company/2401354/",
+      "logo_url": "https://media.licdn.com/dms/image/v2/C560BAQFmMkCDDJlOIQ/company-logo_100_100/company-logo_100_100/0/1637799666865/youth_projects_ltd_logo?e=1757548800&v=beta&t=jMwvoDYVzI3PoynRb_7bpbNeVjsmhyeCNgnoAD1SMqQ",
+      "positions": [
+        {
+          "title": "Web development Trainer",
+          "employment_type": null,
+          "date_range": "2000 - 2002",
+          "duration": "2 yrs",
+          "location": null,
+          "skills": [
+            "Software Development"
+          ]
+        }
+      ]
+    }
+  ]
+}

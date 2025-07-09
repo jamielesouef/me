@@ -56,16 +56,12 @@ enum TransformationError: Error {
 }
 
 struct ProfileDataTransformer {
-
-
-  
   static func transform(from json: String) async throws -> Profile{
     guard let data = json.data(using: .utf8) else  {
       throw TransformationError.invalidData
     }
     
     let decoder = JSONDecoder()
-//    decoder.keyDecodingStrategy = .convertFromSnakeCase
     
     let dto = try decoder.decode(ProfileDTO.self, from: data)
     
