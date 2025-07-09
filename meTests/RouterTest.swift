@@ -11,19 +11,22 @@ import Testing
 
 struct RouterTest {
 
-  @Test func testRouterInitialization() {
+  @Test("Initializes Router with an empty path")
+  func testRouterInitialization() {
     let router = Router()
     #expect(router.path.isEmpty, "Router should initialize with an empty path")
   }
 
-  @Test func testPushRoute() {
+  @Test("Pushes a route onto the Router's path")
+  func testPushRoute() {
     let router = Router()
     router.push(.about)
     #expect(router.path.count == 1, "Path should contain one route after pushing")
     #expect(router.path.first == .about, "First route in path should be home")
   }
 
-  @Test func testPopRoute() {
+  @Test("Pops the last route from the Router's path")
+  func testPopRoute() {
     let router = Router()
     router.push(.history)
     router.push(.about)
@@ -32,7 +35,8 @@ struct RouterTest {
     #expect(router.path.first == .history, "First route in path should be home after popping")
   }
 
-  @Test func testResetRoute() {
+  @Test("Resets the Router's path to empty")
+  func testResetRoute() {
     let router = Router()
     router.push(.history)
     router.push(.about)

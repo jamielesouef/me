@@ -51,11 +51,13 @@ struct PositionDTO: Decodable {
   let skills: [Skill]
 }
 
+enum TransformationError: Error {
+  case invalidData
+}
+
 struct ProfileDataTransformer {
-  
-  enum TransformationError: Error, Equatable, Sendable {
-    case invalidData
-  }
+
+
   
   static func transform(from json: String) async throws -> Profile{
     guard let data = json.data(using: .utf8) else  {
